@@ -1,0 +1,10 @@
+C:\Users\Tomas Rodriguez\Documents\Zombie_Diner\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Tomas Rodriguez\Documents\Zombie_Diner\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Tomas Rodriguez\Documents\Zombie_Diner\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Tomas Rodriguez\Documents\Zombie_Diner\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Tomas Rodriguez\Documents\Zombie_Diner\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Tomas Rodriguez\Documents\Zombie_Diner\Temp\bin\Debug\nunit.framework.dll
+C:\Users\Tomas Rodriguez\Documents\Zombie_Diner\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Tomas Rodriguez\Documents\Zombie_Diner\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+C:\Users\Tomas Rodriguez\Documents\Zombie_Diner\obj\Debug\Assembly-CSharp.dll
+C:\Users\Tomas Rodriguez\Documents\Zombie_Diner\obj\Debug\Assembly-CSharp.pdb

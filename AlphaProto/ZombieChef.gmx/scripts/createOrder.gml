@@ -2,15 +2,17 @@ foodItem = argument0; // Generate order based on given food item (integer)
 
 object = 0;
 // What is the left most order paper available?
+/*
 if (order1.hasOrder == false)
     {
     object = order1;
     }
-else if (order2.hasOrder == false)
+*/
+/* else if (order2.hasOrder == false)
     {
     object = order2;
     }
-  
+  */
 // Generate a name of an order based on foodItem given
 if (object != 0)
 {

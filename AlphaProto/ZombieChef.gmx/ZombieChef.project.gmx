@@ -43,14 +43,14 @@
   </fonts>
   <objects name="objects">
     <object>objects\obj_raw_brains</object>
-    <object>objects\o_blood_bucket</object>
-    <object>objects\o_eyeballs</object>
-    <object>objects\o_ice_cream</object>
-    <object>objects\o_intestines</object>
-    <object>objects\o_limbs</object>
-    <object>objects\o_spleen</object>
-    <object>objects\o_liver</object>
-    <object>objects\o_cursor</object>
+    <object>objects\obj_blood_bucket</object>
+    <object>objects\obj_eyeballs</object>
+    <object>objects\obj_ice_cream</object>
+    <object>objects\obj_intestines</object>
+    <object>objects\obj_limbs</object>
+    <object>objects\obj_spleen</object>
+    <object>objects\obj_liver</object>
+    <object>objects\obj_cursor</object>
     <object>objects\blender</object>
     <object>objects\obj_timer</object>
     <object>objects\order1</object>

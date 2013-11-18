@@ -37,96 +37,6 @@ seconds=30 // These plurals will be used for the countdown.Their name is what th
           </argument>
         </arguments>
       </action>
-      <action>
-        <libid>1</libid>
-        <id>301</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_alarm</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>30*2</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>11</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="11">
-      <action>
-        <libid>1</libid>
-        <id>601</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_execute_script</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>9</kind>
-            <script>createOrder</script>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>floor(random(5))</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string></string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string></string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string></string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string></string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>301</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_alarm</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>STEPS_PER_SECOND*TIME_NEW_ORDER</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>11</string>
-          </argument>
-        </arguments>
-      </action>
     </event>
     <event eventtype="2" enumb="0">
       <action>
@@ -191,7 +101,8 @@ if seconds&gt;=10// or else
 if minutes=0&amp;&amp;seconds&lt;=5{ // If there is only 5 seconds remaining...
 draw_set_color(c_red) // Color_red
 draw_text(string_width("Time remaining "),0,string(minutes)+":0"+string(seconds))} 
-// Next to the"time remaining " string,draw the minutes and seconds.</string>
+// Next to the"time remaining " string,draw the minutes and seconds.
+</string>
           </argument>
         </arguments>
       </action>

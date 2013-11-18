@@ -11,54 +11,6 @@
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>hasOrder</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>false</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>foodItem</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>-1</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>603</id>
         <kind>7</kind>
         <userelative>0</userelative>
@@ -75,6 +27,7 @@
             <kind>1</kind>
             <string>hasOrder = false;
 foodItem = -1;
+Order = 0;
 </string>
           </argument>
         </arguments>
@@ -174,6 +127,35 @@ foodItem = -1;
         </arguments>
       </action>
     </event>
+    <event eventtype="6" enumb="7">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (( Order != 0) &amp;&amp; instance_exists(Order))
+{
+    with (Order)
+    {
+    instance_destroy();
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="6" enumb="4">
       <action>
         <libid>1</libid>
@@ -195,43 +177,49 @@ foodItem = -1;
     {
     switch (foodItem)
     {
-    case (FOOD_BRAIN_BURGER):
+    case (1):
     
     Order = instance_create(x,y,obj_raw_brains);
     Order.isOrder = true;
     break;
 
-    case (FOOD_LIVER_ONIONS):
+    case (2):
 
-    show_message("Order; Grilled Onion");
+    Order = instance_create(x,y,obj_blood_bucket);
+    Order.isOrder = true;
     break;
 
-    case (FOOD_FOOT_LONG):
+    case (3):
 
-    show_message("Order; Foot-Long Handlong");
+    Order = instance_create(x,y,obj_eyeballs);
+    Order.isOrder = true;
     break;
 
-    case (FOOD_STUFFED_INTESTINES):
+    case (5):
 
-    show_message("Order; Stuffed Intestines");
+    Order = instance_create(x,y, obj_intestines);
+    Order.isOrder = true;
     break;
 
-    case (FOOD_SPLEENGETTI):
+    case (8):
 
-    show_message("Spleengetti and Eyeballs");
+    Order = instance_create(x,y,obj_liver);
+    Order.isOrder = true;
     break;
 
-    /*
-    case (FOOD_MEAT_LOVERS):
+    
+    case (6):
 
-    show_message("Order; Meat Lovers Sandwich");
+    Order = instance_create(x,y,obj_limbs);
+    Order.isOrder = true;
     break;
 
-    case (FOOD_BRAINLOAF):
+    case (7):
 
-    show_message("Order: Brainloaf with gravy");
+    Order = instance_create(x,y,obj_spleen);
+    Order.isOrder = true;
     break;
-    */
+    
     }
     }
 </string>

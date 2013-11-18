@@ -51,18 +51,18 @@
   </views>
   <instances>
     <instance objName="obj_raw_brains" x="96" y="272" name="inst_0C952B43" locked="0" code="" scaleX="0.336842000484467" scaleY="0.323944002389908" colour="4294967295" rotation="0"/>
-    <instance objName="o_blood_bucket" x="336" y="240" name="inst_92564052" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="o_eyeballs" x="128" y="320" name="inst_A969ABA5" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="o_ice_cream" x="496" y="272" name="inst_9F849D66" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="o_intestines" x="64" y="320" name="inst_A0EEFB1F" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="o_limbs" x="256" y="240" name="inst_B3198C7B" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="o_spleen" x="400" y="288" name="inst_B041F19E" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="o_liver" x="432" y="320" name="inst_8BA9E0CD" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="90"/>
-    <instance objName="o_cursor" x="576" y="32" name="inst_572279D0" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blood_bucket" x="336" y="240" name="inst_92564052" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_eyeballs" x="128" y="320" name="inst_A969ABA5" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_cream" x="496" y="272" name="inst_9F849D66" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_intestines" x="64" y="320" name="inst_A0EEFB1F" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_limbs" x="256" y="240" name="inst_B3198C7B" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spleen" x="400" y="288" name="inst_B041F19E" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_liver" x="432" y="320" name="inst_8BA9E0CD" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="90"/>
+    <instance objName="obj_cursor" x="576" y="32" name="inst_572279D0" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="blender" x="464" y="176" name="inst_9729232A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_timer" x="32" y="32" name="inst_819EE1ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="order1" x="128" y="48" name="inst_4C979584" locked="0" code="" scaleX="0.5" scaleY="0.492062985897064" colour="4294967295" rotation="0"/>
-    <instance objName="order2" x="192" y="48" name="inst_AC587EED" locked="0" code="" scaleX="0.5" scaleY="0.492063492536545" colour="4294967295" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="0" y="0" name="" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="order2" x="0" y="0" name="inst_79752EBA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
